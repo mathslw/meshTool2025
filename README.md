@@ -4,8 +4,8 @@
 A scripting tool for the fast and batch generation of orthogonal hexahedral mesh for CFD analysis.
 
 ## Project Structure
-- **meshtool**: Contains the core scripts and modules for mesh generation.
-- **cases**: Contains example cases with Jupyter notebooks (`main.ipynb`) for running mesh tool.
+- **Mesh Tool**: Contains the core scripts and modules for mesh generation.
+- **Cases**: Contains example cases with Jupyter notebooks (`main.ipynb`) for running mesh tool.
 - **README.md**: This file.
 - **LICENSE**: License information for the project.
 
