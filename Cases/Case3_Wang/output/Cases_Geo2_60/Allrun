@@ -1,0 +1,23 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # Run from this directory
+
+# 遍历 main_folder 中的所有子文件夹
+for dir in */; do
+    # 进入子文件夹
+    cd "$dir"
+    # Source tutorial run functions
+    . $WM_PROJECT_DIR/bin/tools/RunFunctions
+    # 运行子文件夹中的 bash 文件
+    application=$(getApplication)
+    runApplication blockMesh
+    runApplication $application
+    # 返回到 main_folder
+    cd ..
+done
+
+
+#------------------------------------------------------------------------------
+
+
+
+
