@@ -16,3 +16,11 @@ A scripting tool for the fast and batch generation of orthogonal hexahedral mesh
 
 ## Citation
 If you find this mesh tool useful for your work, please consider citing it as follows:
+@article{sun2025development,
+  title={Development of a scripting tool for the fast and batch generation of orthogonal hexahedral mesh for CFD analysis in built environments},
+  author={Sun, Zhenyu and Zhang, Tengfei and Liu, Wei},
+  journal={Building and Environment},
+  pages={113102},
+  year={2025},
+  publisher={Elsevier}
+}
